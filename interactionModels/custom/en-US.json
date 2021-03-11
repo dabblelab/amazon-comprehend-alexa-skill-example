@@ -1,0 +1,58 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "comprehend demo",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "SentimentIntent",
+          "slots": [
+            {
+              "name": "statement",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "alexa {statement}",
+            "{statement} alexa",
+            "fine {statement}",
+            "ok {statement}",
+            "would {statement}",
+            "will {statement}",
+            "is {statement}",
+            "still {statement}",
+            "yes {statement}",
+            "no {statement}",
+            "because {statement}",
+            "since {statement}",
+            "but {statement}",
+            "what {statement}",
+            "i",
+            "i {statement}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "6"
+}
